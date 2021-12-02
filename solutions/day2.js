@@ -1,11 +1,9 @@
 require('colors')
-const { submarineDirections } = require('./puzzle-inputs')
-
+const { submarineDirections } = require('../puzzle-inputs')
 
 const calculateSubmarinePosition = () => {
   let horizontalPosition = 0
   let depth = 0
-
 
   return `The final direction is ${`${horizontalPosition * depth}`.green}.`
 }

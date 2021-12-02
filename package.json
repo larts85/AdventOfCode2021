@@ -1,12 +1,12 @@
 {
-  "name": "AdventOfCode2021",
-  "version": "1.0.0",
+  "name": "adventofcode2021",
+  "version": "1.2.0",
   "description": "",
-  "main": "day1.js",
+  "main": "index.js",
   "scripts": {
     "start": "nodemon index.js"
   },
-  "keywords": [],
+  "keywords": ["adventofcode", "javascript", "nodejs"],
   "author": "imadev",
   "license": "ISC",
   "dependencies": {
