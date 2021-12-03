@@ -1,11 +1,10 @@
 require('colors')
-const { submarineDirections } = require('./puzzle-inputs')
+const { submarineDirections } = require('../puzzle-inputs')
 
 const extractDirectionValue = (direction = '') => {
   const [, value] = direction.split(' ')
   return Number(value)
 }
-
 const calculateSubmarinePosition = () => {
   let horizontalPosition = 0
   let depth = 0

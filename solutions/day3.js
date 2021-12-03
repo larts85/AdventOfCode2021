@@ -1,5 +1,5 @@
-const { measurements } = require('./puzzle-inputs')
 require('colors')
+const {} = require('../puzzle-inputs')
 
 const function1 = () => {
   return ''

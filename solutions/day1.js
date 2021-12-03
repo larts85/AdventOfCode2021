@@ -1,5 +1,5 @@
 require('colors')
-const { measurements } = require('./puzzle-inputs')
+const { measurements } = require('../puzzle-inputs')
 
 const calculateAugmentedMeasurements = () => {
   let augmentedMeasurements = 0
